@@ -1,0 +1,4072 @@
+{
+  "users": [
+    {
+      "_id": "A301",
+      "id": "A301",
+      "role": "ADMINISTRATOR",
+      "title": "IT Manager",
+      "name": "Anita Rao",
+      "email": "manager@nexora.com",
+      "passwordHash": "50lCThYPaow0SjIAuxoj5A==:gDl3mKQ4WPes2cj2fQHNEeakSB3QamIZ/r/zhmpEbgA=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "A302",
+      "id": "A302",
+      "role": "ADMINISTRATOR",
+      "title": "System Administrator",
+      "name": "Sameer Khan",
+      "email": "sysadmin@nexora.com",
+      "passwordHash": "mujgUj6z6CVaba8tYXnXUQ==:84KMn36N/boUl44BuTbk0LRE8LIbvZmnvdAbRgcLhoU=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "T201",
+      "id": "T201",
+      "role": "TECHNICIAN",
+      "skills": [
+        "Application",
+        "Cloud",
+        "Database"
+      ],
+      "experienceYears": 9,
+      "maxConcurrent": 5,
+      "available": true,
+      "teamLead": true,
+      "name": "Priya Nair",
+      "email": "priya@nexora.com",
+      "passwordHash": "hdr/AGAgibvzJphDGETRkQ==:zm/osiMxa+i7GwXe8OMbl+i831JTQezpj/TDKvyishY=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "T202",
+      "id": "T202",
+      "role": "TECHNICIAN",
+      "skills": [
+        "Network",
+        "Security"
+      ],
+      "experienceYears": 6,
+      "maxConcurrent": 5,
+      "available": true,
+      "teamLead": false,
+      "name": "Rahul Verma",
+      "email": "rahul@nexora.com",
+      "passwordHash": "vN1SOIhb9tO3aD0x4ghzEg==:7akT5ofZL+Dcsx1u0bIJrxJ5ypIEmRJEcqFHNAtLhKA=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "T203",
+      "id": "T203",
+      "role": "TECHNICIAN",
+      "skills": [
+        "Hardware",
+        "Software",
+        "Storage"
+      ],
+      "experienceYears": 4,
+      "maxConcurrent": 4,
+      "available": true,
+      "teamLead": false,
+      "name": "Meera Iyer",
+      "email": "meera@nexora.com",
+      "passwordHash": "+M29Q1gbs2ISv9PdwqpGqQ==:vz0U9UH9TOsdRaPGnc2fYNSz5KSy6Y3d5Y1eDLP7TBc=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "T204",
+      "id": "T204",
+      "role": "TECHNICIAN",
+      "skills": [
+        "Application",
+        "Authentication",
+        "Security"
+      ],
+      "experienceYears": 7,
+      "maxConcurrent": 5,
+      "available": true,
+      "teamLead": false,
+      "name": "Arjun Das",
+      "email": "arjun@nexora.com",
+      "passwordHash": "zdjHUYU/czVPaiN8y1uN0A==:X/IyhvP0+xoKGHI+dtjORJkmvGHNCJtnymzGuA6FuLA=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "T205",
+      "id": "T205",
+      "role": "TECHNICIAN",
+      "skills": [
+        "Hardware",
+        "Network",
+        "Software"
+      ],
+      "experienceYears": 2,
+      "maxConcurrent": 3,
+      "available": true,
+      "teamLead": false,
+      "name": "Sneha Patel",
+      "email": "sneha@nexora.com",
+      "passwordHash": "N4TpBog8t4+Ei7K80CXTzA==:HPLh5lxnBpPu5BCQkL5Bmy1Nd9MxiTF3VEz9JbpqOso=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "E101",
+      "id": "E101",
+      "role": "EMPLOYEE",
+      "department": "Finance",
+      "location": "Hyderabad",
+      "name": "Ravi Kumar",
+      "email": "ravi@nexora.com",
+      "passwordHash": "OGq0DoZrFv04voBz9ViZGA==:Xygsxhml1OaI+wBsp1iQbYFCDWQ6R1LFx9HEXCGzHiQ=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "E102",
+      "id": "E102",
+      "role": "EMPLOYEE",
+      "department": "Sales",
+      "location": "Mumbai",
+      "name": "Sara Thomas",
+      "email": "sara@nexora.com",
+      "passwordHash": "osaHLnfGmKw4iayjylE5NQ==:nIiK5sIHRZ88iVfwZmKoX3v2blvHnSNWtCZfInpQwew=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "E103",
+      "id": "E103",
+      "role": "EMPLOYEE",
+      "department": "Operations",
+      "location": "Hyderabad",
+      "name": "Kiran Reddy",
+      "email": "kiran@nexora.com",
+      "passwordHash": "ypuV2Jk+B+q6p5bxN2d6xA==:b0U4pXX7y5aaT2r4Njjsuxst8tpMFDD4K4qTV1RNeh4=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    },
+    {
+      "_id": "E104",
+      "id": "E104",
+      "role": "EMPLOYEE",
+      "department": "HR",
+      "location": "Pune",
+      "name": "Divya Menon",
+      "email": "divya@nexora.com",
+      "passwordHash": "eNrjmL7FNKpxtdFCZMeRtw==:+fet5EsOLM/Z6r07jfoc4fyGBwCtyimoA6ltWI0/suU=",
+      "active": true,
+      "createdAt": "2026-11-22T01:36:40.000Z",
+      "passwordChangedAt": null
+    }
+  ],
+  "services": [
+    {
+      "_id": "SVC1",
+      "id": "SVC1",
+      "name": "Payment Gateway",
+      "description": "Customer payment processing",
+      "criticality": "CRITICAL",
+      "policy": "SLA1",
+      "defaultCategory": "Application"
+    },
+    {
+      "_id": "SVC2",
+      "id": "SVC2",
+      "name": "Authentication / SSO",
+      "description": "Single sign-on and identity",
+      "criticality": "CRITICAL",
+      "policy": "SLA1",
+      "defaultCategory": "Authentication"
+    },
+    {
+      "_id": "SVC3",
+      "id": "SVC3",
+      "name": "Core Database Cluster",
+      "description": "Primary production databases",
+      "criticality": "HIGH",
+      "policy": "SLA1",
+      "defaultCategory": "Database"
+    },
+    {
+      "_id": "SVC4",
+      "id": "SVC4",
+      "name": "Corporate Network / VPN",
+      "description": "Office network and remote access",
+      "criticality": "HIGH",
+      "policy": "SLA2",
+      "defaultCategory": "Network"
+    },
+    {
+      "_id": "SVC5",
+      "id": "SVC5",
+      "name": "Email & Collaboration",
+      "description": "Mail, chat and calendar",
+      "criticality": "MEDIUM",
+      "policy": "SLA2",
+      "defaultCategory": "Software"
+    },
+    {
+      "_id": "SVC6",
+      "id": "SVC6",
+      "name": "Cloud Storage",
+      "description": "File shares and backups",
+      "criticality": "MEDIUM",
+      "policy": "SLA2",
+      "defaultCategory": "Storage"
+    },
+    {
+      "_id": "SVC7",
+      "id": "SVC7",
+      "name": "HR Portal",
+      "description": "Leave and payroll self-service",
+      "criticality": "LOW",
+      "policy": null,
+      "defaultCategory": "Application"
+    },
+    {
+      "_id": "SVC8",
+      "id": "SVC8",
+      "name": "Endpoint Devices",
+      "description": "Laptops, printers, peripherals",
+      "criticality": "LOW",
+      "policy": null,
+      "defaultCategory": "Hardware"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "Hardware",
+      "id": "Hardware",
+      "name": "Hardware",
+      "description": "Hardware related incidents",
+      "keywords": [
+        "battery",
+        "charger",
+        "docking",
+        "hardware",
+        "keyboard",
+        "laptop",
+        "monitor",
+        "mouse",
+        "printer",
+        "screen"
+      ]
+    },
+    {
+      "_id": "Software",
+      "id": "Software",
+      "name": "Software",
+      "description": "Software related incidents",
+      "keywords": [
+        "excel",
+        "install",
+        "license",
+        "office",
+        "outlook",
+        "patch",
+        "software",
+        "update",
+        "upgrade"
+      ]
+    },
+    {
+      "_id": "Network",
+      "id": "Network",
+      "name": "Network",
+      "description": "Network related incidents",
+      "keywords": [
+        "connectivity",
+        "dns",
+        "firewall",
+        "internet",
+        "lan",
+        "latency",
+        "network",
+        "router",
+        "vpn",
+        "wifi"
+      ]
+    },
+    {
+      "_id": "Database",
+      "id": "Database",
+      "name": "Database",
+      "description": "Database related incidents",
+      "keywords": [
+        "database",
+        "db",
+        "deadlock",
+        "mysql",
+        "oracle",
+        "query",
+        "replication",
+        "schema",
+        "sql"
+      ]
+    },
+    {
+      "_id": "Cloud",
+      "id": "Cloud",
+      "name": "Cloud",
+      "description": "Cloud related incidents",
+      "keywords": [
+        "aws",
+        "azure",
+        "cloud",
+        "container",
+        "deployment",
+        "docker",
+        "instance",
+        "kubernetes",
+        "vm"
+      ]
+    },
+    {
+      "_id": "Security",
+      "id": "Security",
+      "name": "Security",
+      "description": "Security related incidents",
+      "keywords": [
+        "breach",
+        "hacked",
+        "malware",
+        "phishing",
+        "ransomware",
+        "security",
+        "suspicious",
+        "unauthorized",
+        "virus"
+      ]
+    },
+    {
+      "_id": "Authentication",
+      "id": "Authentication",
+      "name": "Authentication",
+      "description": "Authentication related incidents",
+      "keywords": [
+        "account",
+        "authentication",
+        "credentials",
+        "locked",
+        "login",
+        "mfa",
+        "otp",
+        "password",
+        "sso"
+      ]
+    },
+    {
+      "_id": "Application",
+      "id": "Application",
+      "name": "Application",
+      "description": "Application related incidents",
+      "keywords": [
+        "api",
+        "app",
+        "application",
+        "checkout",
+        "crm",
+        "erp",
+        "payment",
+        "portal",
+        "transaction",
+        "website"
+      ]
+    },
+    {
+      "_id": "Storage",
+      "id": "Storage",
+      "name": "Storage",
+      "description": "Storage related incidents",
+      "keywords": [
+        "backup",
+        "disk space",
+        "drive",
+        "file share",
+        "nas",
+        "quota",
+        "s3",
+        "shared drive",
+        "storage"
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "_id": "SLA1",
+      "id": "SLA1",
+      "name": "Gold",
+      "targets": {
+        "P1": {
+          "responseMinutes": 5,
+          "resolutionMinutes": 30
+        },
+        "P2": {
+          "responseMinutes": 15,
+          "resolutionMinutes": 120
+        },
+        "P3": {
+          "responseMinutes": 60,
+          "resolutionMinutes": 480
+        },
+        "P4": {
+          "responseMinutes": 240,
+          "resolutionMinutes": 1440
+        }
+      }
+    },
+    {
+      "_id": "SLA2",
+      "id": "SLA2",
+      "name": "Standard",
+      "targets": {
+        "P1": {
+          "responseMinutes": 15,
+          "resolutionMinutes": 60
+        },
+        "P2": {
+          "responseMinutes": 30,
+          "resolutionMinutes": 240
+        },
+        "P3": {
+          "responseMinutes": 120,
+          "resolutionMinutes": 960
+        },
+        "P4": {
+          "responseMinutes": 480,
+          "resolutionMinutes": 2880
+        }
+      }
+    }
+  ],
+  "incidents": [
+    {
+      "_id": "INC1001",
+      "id": "INC1001",
+      "reporter": "E101",
+      "service": "SVC1",
+      "impact": "CRITICAL",
+      "urgency": "CRITICAL",
+      "businessCriticality": "CRITICAL",
+      "affectedUsers": 500,
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "title": "Payment gateway returning 500 errors",
+      "description": "Checkout requests to the payment gateway fail with HTTP 500 and customers cannot pay.",
+      "category": "Application",
+      "priority": "P1",
+      "status": "CLOSED",
+      "assignedTo": "T201",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-21T18:56:40.000Z",
+        "responseDue": "2026-11-21T19:01:40.000Z",
+        "resolutionDue": "2026-11-21T19:26:40.000Z",
+        "respondedAt": "2026-11-21T19:00:40.000Z",
+        "resolvedAt": "2026-11-21T19:16:40.000Z",
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": true,
+        "resolutionWarned": false,
+        "log": [
+          {
+            "finding": "RESPONSE_WARNING",
+            "at": "2026-11-21T19:00:40.000Z"
+          }
+        ]
+      },
+      "updatedAt": "2026-11-21T19:26:40.000Z",
+      "notes": [
+        {
+          "kind": "INVESTIGATION",
+          "author": "Priya Nair",
+          "text": "Connection pool to the payment provider exhausted; threads blocked on a slow upstream call.",
+          "at": "2026-11-21T19:08:40.000Z"
+        },
+        {
+          "kind": "RESOLUTION",
+          "author": "Priya Nair",
+          "text": "Restarted gateway service and raised the connection pool limit from 50 to 200; added upstream timeout of 5s.",
+          "at": "2026-11-21T19:16:40.000Z"
+        }
+      ],
+      "resolution": "Restarted gateway service and raised the connection pool limit from 50 to 200; added upstream timeout of 5s.",
+      "closureNote": "Verified by reporter; root cause documented.",
+      "resolvedBy": "Priya Nair",
+      "closedBy": "Priya Nair",
+      "resolvedAt": "2026-11-21T19:16:40.000Z",
+      "closedAt": "2026-11-21T19:26:40.000Z",
+      "feedback": {
+        "rating": 5,
+        "comment": "Payments working again, thanks!",
+        "at": "2026-11-21T19:21:40.000Z"
+      },
+      "escalationLevel": 0,
+      "relatedIds": [
+        "INC1005",
+        "INC1006"
+      ]
+    },
+    {
+      "_id": "INC1002",
+      "id": "INC1002",
+      "reporter": "E102",
+      "service": "SVC4",
+      "impact": "HIGH",
+      "urgency": "MEDIUM",
+      "businessCriticality": "HIGH",
+      "affectedUsers": 80,
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "title": "VPN very slow for remote staff",
+      "description": "Remote employees report VPN connections are slow and keep timing out since morning.",
+      "category": "Network",
+      "priority": "P2",
+      "status": "CLOSED",
+      "assignedTo": "T202",
+      "sla": {
+        "policyName": "Standard",
+        "startedAt": "2026-11-21T20:36:40.000Z",
+        "responseDue": "2026-11-21T21:06:40.000Z",
+        "resolutionDue": "2026-11-22T00:36:40.000Z",
+        "respondedAt": "2026-11-21T20:44:40.000Z",
+        "resolvedAt": "2026-11-21T21:26:40.000Z",
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-21T21:36:40.000Z",
+      "notes": [
+        {
+          "kind": "RESOLUTION",
+          "author": "Rahul Verma",
+          "text": "Replaced faulty VPN concentrator uplink and rebalanced tunnels across both gateways.",
+          "at": "2026-11-21T21:26:40.000Z"
+        }
+      ],
+      "resolution": "Replaced faulty VPN concentrator uplink and rebalanced tunnels across both gateways.",
+      "closureNote": "Closed by IT manager.",
+      "resolvedBy": "Rahul Verma",
+      "closedBy": "Anita Rao",
+      "resolvedAt": "2026-11-21T21:26:40.000Z",
+      "closedAt": "2026-11-21T21:36:40.000Z",
+      "feedback": {
+        "rating": 4,
+        "comment": "Fast again.",
+        "at": "2026-11-21T21:31:40.000Z"
+      },
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1003",
+      "id": "INC1003",
+      "reporter": "E104",
+      "service": "SVC8",
+      "impact": "LOW",
+      "urgency": "LOW",
+      "businessCriticality": "LOW",
+      "affectedUsers": 1,
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "title": "Laptop keyboard keys not working",
+      "description": "Several keys on my laptop keyboard stopped responding after a coffee spill.",
+      "category": "Hardware",
+      "priority": "P4",
+      "status": "VERIFIED",
+      "assignedTo": "T203",
+      "sla": {
+        "policyName": "Standard",
+        "startedAt": "2026-11-21T22:16:40.000Z",
+        "responseDue": "2026-11-22T06:16:40.000Z",
+        "resolutionDue": "2026-11-23T22:16:40.000Z",
+        "respondedAt": "2026-11-21T22:26:40.000Z",
+        "resolvedAt": "2026-11-21T23:06:40.000Z",
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-21T23:16:40.000Z",
+      "notes": [
+        {
+          "kind": "RESOLUTION",
+          "author": "Meera Iyer",
+          "text": "Replaced laptop keyboard assembly and tested all keys.",
+          "at": "2026-11-21T23:06:40.000Z"
+        }
+      ],
+      "resolution": "Replaced laptop keyboard assembly and tested all keys.",
+      "closureNote": null,
+      "resolvedBy": "Meera Iyer",
+      "closedBy": null,
+      "resolvedAt": "2026-11-21T23:06:40.000Z",
+      "closedAt": null,
+      "feedback": {
+        "rating": 4,
+        "comment": "",
+        "at": "2026-11-21T23:16:40.000Z"
+      },
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1004",
+      "id": "INC1004",
+      "reporter": "E103",
+      "service": "SVC3",
+      "impact": "MEDIUM",
+      "urgency": "HIGH",
+      "businessCriticality": "HIGH",
+      "affectedUsers": 20,
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "title": "Reporting database queries timing out",
+      "description": "Month-end reporting SQL queries time out against the core database.",
+      "category": "Database",
+      "priority": "P2",
+      "status": "RESOLVED",
+      "assignedTo": "T201",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-21T22:36:40.000Z",
+        "responseDue": "2026-11-21T22:51:40.000Z",
+        "resolutionDue": "2026-11-22T00:36:40.000Z",
+        "respondedAt": "2026-11-21T22:44:40.000Z",
+        "resolvedAt": "2026-11-21T23:36:40.000Z",
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-21T23:36:40.000Z",
+      "notes": [
+        {
+          "kind": "RESOLUTION",
+          "author": "Priya Nair",
+          "text": "Added missing composite index on transactions table and refreshed stale statistics.",
+          "at": "2026-11-21T23:36:40.000Z"
+        }
+      ],
+      "resolution": "Added missing composite index on transactions table and refreshed stale statistics.",
+      "closureNote": null,
+      "resolvedBy": "Priya Nair",
+      "closedBy": null,
+      "resolvedAt": "2026-11-21T23:36:40.000Z",
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1005",
+      "id": "INC1005",
+      "reporter": "E102",
+      "service": "SVC1",
+      "impact": "CRITICAL",
+      "urgency": "CRITICAL",
+      "businessCriticality": "CRITICAL",
+      "affectedUsers": 300,
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "title": "Payment application unavailable",
+      "description": "The payment application is unavailable and customers are unable to complete transactions.",
+      "category": "Application",
+      "priority": "P1",
+      "status": "ASSIGNED",
+      "assignedTo": "T201",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-22T00:46:40.000Z",
+        "responseDue": "2026-11-22T00:51:40.000Z",
+        "resolutionDue": "2026-11-22T01:16:40.000Z",
+        "respondedAt": null,
+        "resolvedAt": null,
+        "responseBreached": true,
+        "resolutionBreached": true,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": [
+          {
+            "finding": "RESPONSE_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          },
+          {
+            "finding": "RESOLUTION_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          }
+        ]
+      },
+      "updatedAt": "2026-11-22T00:46:40.000Z",
+      "notes": [],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 3,
+      "relatedIds": [
+        "INC1001",
+        "INC1006",
+        "INC1007"
+      ]
+    },
+    {
+      "_id": "INC1006",
+      "id": "INC1006",
+      "reporter": "E103",
+      "service": "SVC1",
+      "impact": "HIGH",
+      "urgency": "HIGH",
+      "businessCriticality": "CRITICAL",
+      "affectedUsers": 60,
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "title": "Payment transaction failing",
+      "description": "Customer payment transactions are failing at the final confirmation step.",
+      "category": "Application",
+      "priority": "P1",
+      "status": "ASSIGNED",
+      "assignedTo": "T204",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-22T00:48:40.000Z",
+        "responseDue": "2026-11-22T00:53:40.000Z",
+        "resolutionDue": "2026-11-22T01:18:40.000Z",
+        "respondedAt": null,
+        "resolvedAt": null,
+        "responseBreached": true,
+        "resolutionBreached": true,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": [
+          {
+            "finding": "RESPONSE_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          },
+          {
+            "finding": "RESOLUTION_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          }
+        ]
+      },
+      "updatedAt": "2026-11-22T00:48:40.000Z",
+      "notes": [],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 3,
+      "relatedIds": [
+        "INC1005",
+        "INC1001"
+      ]
+    },
+    {
+      "_id": "INC1007",
+      "id": "INC1007",
+      "reporter": "E104",
+      "service": "SVC1",
+      "impact": "HIGH",
+      "urgency": "CRITICAL",
+      "businessCriticality": "CRITICAL",
+      "affectedUsers": 40,
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "title": "Unable to make payment",
+      "description": "Several users are unable to pay invoices through the payment application.",
+      "category": "Application",
+      "priority": "P1",
+      "status": "ASSIGNED",
+      "assignedTo": "T201",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-22T00:51:40.000Z",
+        "responseDue": "2026-11-22T00:56:40.000Z",
+        "resolutionDue": "2026-11-22T01:21:40.000Z",
+        "respondedAt": null,
+        "resolvedAt": null,
+        "responseBreached": true,
+        "resolutionBreached": true,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": [
+          {
+            "finding": "RESPONSE_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          },
+          {
+            "finding": "RESOLUTION_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          }
+        ]
+      },
+      "updatedAt": "2026-11-22T00:51:40.000Z",
+      "notes": [],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 3,
+      "relatedIds": [
+        "INC1005"
+      ]
+    },
+    {
+      "_id": "INC1008",
+      "id": "INC1008",
+      "reporter": "E101",
+      "service": "SVC2",
+      "impact": "HIGH",
+      "urgency": "HIGH",
+      "businessCriticality": "CRITICAL",
+      "affectedUsers": 25,
+      "createdAt": "2026-11-22T01:06:40.000Z",
+      "title": "Cannot login to SSO portal",
+      "description": "Login to the SSO portal fails with an invalid credentials error for multiple users.",
+      "category": "Authentication",
+      "priority": "P1",
+      "status": "IN_PROGRESS",
+      "assignedTo": "T204",
+      "sla": {
+        "policyName": "Gold",
+        "startedAt": "2026-11-22T01:06:40.000Z",
+        "responseDue": "2026-11-22T01:11:40.000Z",
+        "resolutionDue": "2026-11-22T01:36:40.000Z",
+        "respondedAt": "2026-11-22T01:10:41.000Z",
+        "resolvedAt": null,
+        "responseBreached": false,
+        "resolutionBreached": true,
+        "responseWarned": true,
+        "resolutionWarned": false,
+        "log": [
+          {
+            "finding": "RESPONSE_WARNING",
+            "at": "2026-11-22T01:10:41.000Z"
+          },
+          {
+            "finding": "RESOLUTION_VIOLATION",
+            "at": "2026-11-22T01:36:41.000Z"
+          }
+        ]
+      },
+      "updatedAt": "2026-11-22T01:18:41.000Z",
+      "notes": [
+        {
+          "kind": "INVESTIGATION",
+          "author": "Arjun Das",
+          "text": "Identity provider certificate appears expired; checking renewal job.",
+          "at": "2026-11-22T01:18:41.000Z"
+        }
+      ],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1009",
+      "id": "INC1009",
+      "reporter": "E102",
+      "service": "SVC6",
+      "impact": "MEDIUM",
+      "urgency": "MEDIUM",
+      "businessCriticality": "MEDIUM",
+      "affectedUsers": 15,
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "title": "Shared drive running out of space",
+      "description": "The finance shared drive is almost full and users cannot save new files.",
+      "category": "Storage",
+      "priority": "P3",
+      "status": "ASSIGNED",
+      "assignedTo": "T203",
+      "sla": {
+        "policyName": "Standard",
+        "startedAt": "2026-11-22T01:16:41.000Z",
+        "responseDue": "2026-11-22T03:16:41.000Z",
+        "resolutionDue": "2026-11-22T17:16:41.000Z",
+        "respondedAt": null,
+        "resolvedAt": null,
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-22T01:16:41.000Z",
+      "notes": [],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1010",
+      "id": "INC1010",
+      "reporter": "E104",
+      "service": "SVC7",
+      "impact": "LOW",
+      "urgency": "LOW",
+      "businessCriticality": "LOW",
+      "affectedUsers": 1,
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "title": "Typo on leave application page",
+      "description": "There is a spelling mistake in the heading of the leave application page.",
+      "category": "Application",
+      "priority": "P4",
+      "status": "ASSIGNED",
+      "assignedTo": "T201",
+      "sla": {
+        "policyName": "Standard",
+        "startedAt": "2026-11-22T01:24:41.000Z",
+        "responseDue": "2026-11-22T09:24:41.000Z",
+        "resolutionDue": "2026-11-24T01:24:41.000Z",
+        "respondedAt": null,
+        "resolvedAt": null,
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-22T01:24:41.000Z",
+      "notes": [],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 0,
+      "relatedIds": []
+    },
+    {
+      "_id": "INC1011",
+      "id": "INC1011",
+      "reporter": "E102",
+      "service": "SVC5",
+      "impact": "HIGH",
+      "urgency": "HIGH",
+      "businessCriticality": "MEDIUM",
+      "affectedUsers": 5,
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "title": "Suspicious phishing email received",
+      "description": "I received a suspicious email asking me to reset my password via an unknown link.",
+      "category": "Security",
+      "priority": "P2",
+      "status": "PENDING_INFO",
+      "assignedTo": "T202",
+      "sla": {
+        "policyName": "Standard",
+        "startedAt": "2026-11-22T01:26:41.000Z",
+        "responseDue": "2026-11-22T01:56:41.000Z",
+        "resolutionDue": "2026-11-22T05:26:41.000Z",
+        "respondedAt": "2026-11-22T01:28:41.000Z",
+        "resolvedAt": null,
+        "responseBreached": false,
+        "resolutionBreached": false,
+        "responseWarned": false,
+        "resolutionWarned": false,
+        "log": []
+      },
+      "updatedAt": "2026-11-22T01:31:41.000Z",
+      "notes": [
+        {
+          "kind": "INFO_REQUEST",
+          "author": "Rahul Verma",
+          "text": "Please forward the original email as an attachment and tell us whether you clicked the link.",
+          "at": "2026-11-22T01:31:41.000Z"
+        }
+      ],
+      "resolution": null,
+      "closureNote": null,
+      "resolvedBy": null,
+      "closedBy": null,
+      "resolvedAt": null,
+      "closedAt": null,
+      "feedback": null,
+      "escalationLevel": 0,
+      "relatedIds": []
+    }
+  ],
+  "audit": [
+    {
+      "_id": "AUD1",
+      "id": "AUD1",
+      "actor": "Employee E101",
+      "incidentId": "INC1001",
+      "description": "Incident INC1001 created by Employee E101: Payment gateway returning 500 errors",
+      "timestamp": "2026-11-21T18:56:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD2",
+      "id": "AUD2",
+      "actor": "SYSTEM",
+      "incidentId": "INC1001",
+      "description": "Incident classified as APPLICATION",
+      "timestamp": "2026-11-21T18:56:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD3",
+      "id": "AUD3",
+      "actor": "SYSTEM",
+      "incidentId": "INC1001",
+      "description": "Priority calculated as P1 (4 (impact) x 4 (urgency) x 4 (criticality) = 64, x2.00 for 500 affected users = 128.0); SLA 'Gold' response due 00:31:40, resolution due 00:56:40",
+      "timestamp": "2026-11-21T18:56:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD4",
+      "id": "AUD4",
+      "actor": "SYSTEM",
+      "incidentId": "INC1001",
+      "description": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-21T18:56:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD5",
+      "id": "AUD5",
+      "actor": "SYSTEM",
+      "incidentId": "INC1001",
+      "description": "SLA warning: response deadline 00:31:40 is approaching",
+      "timestamp": "2026-11-21T19:00:40.000Z",
+      "action": "SLA_WARNING",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD6",
+      "id": "AUD6",
+      "actor": "Technician T201",
+      "incidentId": "INC1001",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-21T19:00:40.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD7",
+      "id": "AUD7",
+      "actor": "Technician T201",
+      "incidentId": "INC1001",
+      "description": "Investigation started",
+      "timestamp": "2026-11-21T19:04:40.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD8",
+      "id": "AUD8",
+      "actor": "Technician T201",
+      "incidentId": "INC1001",
+      "description": "Investigation note added: Connection pool to the payment provider exhausted; threads blocked on a slow upstream call.",
+      "timestamp": "2026-11-21T19:08:40.000Z",
+      "action": "NOTE_ADDED",
+      "previousState": "IN_PROGRESS",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD9",
+      "id": "AUD9",
+      "actor": "Technician T201",
+      "incidentId": "INC1001",
+      "description": "Resolution provided: Restarted gateway service and raised the connection pool limit from 50 to 200; added upstream timeout of 5s.",
+      "timestamp": "2026-11-21T19:16:40.000Z",
+      "action": "RESOLVED",
+      "previousState": "IN_PROGRESS",
+      "newState": "RESOLVED"
+    },
+    {
+      "_id": "AUD10",
+      "id": "AUD10",
+      "actor": "Employee E101",
+      "incidentId": "INC1001",
+      "description": "Reporter verified the resolution",
+      "timestamp": "2026-11-21T19:21:40.000Z",
+      "action": "VERIFIED",
+      "previousState": "RESOLVED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD11",
+      "id": "AUD11",
+      "actor": "Employee E101",
+      "incidentId": "INC1001",
+      "description": "Feedback: 5/5 Payments working again, thanks!",
+      "timestamp": "2026-11-21T19:21:40.000Z",
+      "action": "FEEDBACK_SUBMITTED",
+      "previousState": "VERIFIED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD12",
+      "id": "AUD12",
+      "actor": "Technician T201",
+      "incidentId": "INC1001",
+      "description": "Incident CLOSED: Verified by reporter; root cause documented.",
+      "timestamp": "2026-11-21T19:26:40.000Z",
+      "action": "CLOSED",
+      "previousState": "VERIFIED",
+      "newState": "CLOSED"
+    },
+    {
+      "_id": "AUD13",
+      "id": "AUD13",
+      "actor": "Employee E102",
+      "incidentId": "INC1002",
+      "description": "Incident INC1002 created by Employee E102: VPN very slow for remote staff",
+      "timestamp": "2026-11-21T20:36:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD14",
+      "id": "AUD14",
+      "actor": "SYSTEM",
+      "incidentId": "INC1002",
+      "description": "Incident classified as NETWORK",
+      "timestamp": "2026-11-21T20:36:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD15",
+      "id": "AUD15",
+      "actor": "SYSTEM",
+      "incidentId": "INC1002",
+      "description": "Priority calculated as P2 (3 (impact) x 2 (urgency) x 3 (criticality) = 18, x1.50 for 80 affected users = 27.0); SLA 'Standard' response due 02:36:40, resolution due 06:06:40",
+      "timestamp": "2026-11-21T20:36:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD16",
+      "id": "AUD16",
+      "actor": "SYSTEM",
+      "incidentId": "INC1002",
+      "description": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-21T20:36:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD17",
+      "id": "AUD17",
+      "actor": "Technician T202",
+      "incidentId": "INC1002",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-21T20:44:40.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD18",
+      "id": "AUD18",
+      "actor": "Technician T202",
+      "incidentId": "INC1002",
+      "description": "Investigation started",
+      "timestamp": "2026-11-21T20:46:40.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD19",
+      "id": "AUD19",
+      "actor": "Technician T202",
+      "incidentId": "INC1002",
+      "description": "Resolution provided: Replaced faulty VPN concentrator uplink and rebalanced tunnels across both gateways.",
+      "timestamp": "2026-11-21T21:26:40.000Z",
+      "action": "RESOLVED",
+      "previousState": "IN_PROGRESS",
+      "newState": "RESOLVED"
+    },
+    {
+      "_id": "AUD20",
+      "id": "AUD20",
+      "actor": "Employee E102",
+      "incidentId": "INC1002",
+      "description": "Reporter verified the resolution",
+      "timestamp": "2026-11-21T21:31:40.000Z",
+      "action": "VERIFIED",
+      "previousState": "RESOLVED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD21",
+      "id": "AUD21",
+      "actor": "Employee E102",
+      "incidentId": "INC1002",
+      "description": "Feedback: 4/5 Fast again.",
+      "timestamp": "2026-11-21T21:31:40.000Z",
+      "action": "FEEDBACK_SUBMITTED",
+      "previousState": "VERIFIED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD22",
+      "id": "AUD22",
+      "actor": "Administrator A301",
+      "incidentId": "INC1002",
+      "description": "Incident CLOSED: Closed by IT manager.",
+      "timestamp": "2026-11-21T21:36:40.000Z",
+      "action": "CLOSED",
+      "previousState": "VERIFIED",
+      "newState": "CLOSED"
+    },
+    {
+      "_id": "AUD23",
+      "id": "AUD23",
+      "actor": "Employee E104",
+      "incidentId": "INC1003",
+      "description": "Incident INC1003 created by Employee E104: Laptop keyboard keys not working",
+      "timestamp": "2026-11-21T22:16:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD24",
+      "id": "AUD24",
+      "actor": "SYSTEM",
+      "incidentId": "INC1003",
+      "description": "Incident classified as HARDWARE",
+      "timestamp": "2026-11-21T22:16:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD25",
+      "id": "AUD25",
+      "actor": "SYSTEM",
+      "incidentId": "INC1003",
+      "description": "Priority calculated as P4 (1 (impact) x 1 (urgency) x 1 (criticality) = 1, x1.00 for 1 affected users = 1.0); SLA 'Standard' response due 11:46:40, resolution due 03:46:40",
+      "timestamp": "2026-11-21T22:16:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD26",
+      "id": "AUD26",
+      "actor": "SYSTEM",
+      "incidentId": "INC1003",
+      "description": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-21T22:16:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD27",
+      "id": "AUD27",
+      "actor": "Technician T203",
+      "incidentId": "INC1003",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-21T22:26:40.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD28",
+      "id": "AUD28",
+      "actor": "Technician T203",
+      "incidentId": "INC1003",
+      "description": "Investigation started",
+      "timestamp": "2026-11-21T22:31:40.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD29",
+      "id": "AUD29",
+      "actor": "Technician T203",
+      "incidentId": "INC1003",
+      "description": "Resolution provided: Replaced laptop keyboard assembly and tested all keys.",
+      "timestamp": "2026-11-21T23:06:40.000Z",
+      "action": "RESOLVED",
+      "previousState": "IN_PROGRESS",
+      "newState": "RESOLVED"
+    },
+    {
+      "_id": "AUD30",
+      "id": "AUD30",
+      "actor": "Employee E104",
+      "incidentId": "INC1003",
+      "description": "Reporter verified the resolution",
+      "timestamp": "2026-11-21T23:16:40.000Z",
+      "action": "VERIFIED",
+      "previousState": "RESOLVED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD31",
+      "id": "AUD31",
+      "actor": "Employee E104",
+      "incidentId": "INC1003",
+      "description": "Feedback: 4/5 ",
+      "timestamp": "2026-11-21T23:16:40.000Z",
+      "action": "FEEDBACK_SUBMITTED",
+      "previousState": "VERIFIED",
+      "newState": "VERIFIED"
+    },
+    {
+      "_id": "AUD32",
+      "id": "AUD32",
+      "actor": "Employee E103",
+      "incidentId": "INC1004",
+      "description": "Incident INC1004 created by Employee E103: Reporting database queries timing out",
+      "timestamp": "2026-11-21T22:36:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD33",
+      "id": "AUD33",
+      "actor": "SYSTEM",
+      "incidentId": "INC1004",
+      "description": "Incident classified as DATABASE",
+      "timestamp": "2026-11-21T22:36:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD34",
+      "id": "AUD34",
+      "actor": "SYSTEM",
+      "incidentId": "INC1004",
+      "description": "Priority calculated as P2 (2 (impact) x 3 (urgency) x 3 (criticality) = 18, x1.25 for 20 affected users = 22.5); SLA 'Gold' response due 04:21:40, resolution due 06:06:40",
+      "timestamp": "2026-11-21T22:36:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD35",
+      "id": "AUD35",
+      "actor": "SYSTEM",
+      "incidentId": "INC1004",
+      "description": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-21T22:36:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD36",
+      "id": "AUD36",
+      "actor": "Technician T201",
+      "incidentId": "INC1004",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-21T22:44:40.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD37",
+      "id": "AUD37",
+      "actor": "Technician T201",
+      "incidentId": "INC1004",
+      "description": "Investigation started",
+      "timestamp": "2026-11-21T22:46:40.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD38",
+      "id": "AUD38",
+      "actor": "Technician T201",
+      "incidentId": "INC1004",
+      "description": "Resolution provided: Added missing composite index on transactions table and refreshed stale statistics.",
+      "timestamp": "2026-11-21T23:36:40.000Z",
+      "action": "RESOLVED",
+      "previousState": "IN_PROGRESS",
+      "newState": "RESOLVED"
+    },
+    {
+      "_id": "AUD39",
+      "id": "AUD39",
+      "actor": "Employee E102",
+      "incidentId": "INC1005",
+      "description": "Incident INC1005 created by Employee E102: Payment application unavailable",
+      "timestamp": "2026-11-22T00:46:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD40",
+      "id": "AUD40",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "Incident classified as APPLICATION",
+      "timestamp": "2026-11-22T00:46:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD41",
+      "id": "AUD41",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "Priority calculated as P1 (4 (impact) x 4 (urgency) x 4 (criticality) = 64, x2.00 for 300 affected users = 128.0); SLA 'Gold' response due 06:21:40, resolution due 06:46:40",
+      "timestamp": "2026-11-22T00:46:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD42",
+      "id": "AUD42",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "INC1005 may be related to INC1001 (similarity 51%)",
+      "timestamp": "2026-11-22T00:46:40.000Z",
+      "action": "DUPLICATE_SUSPECTED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD43",
+      "id": "AUD43",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 1 past fixes on service)",
+      "timestamp": "2026-11-22T00:46:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD44",
+      "id": "AUD44",
+      "actor": "Employee E103",
+      "incidentId": "INC1006",
+      "description": "Incident INC1006 created by Employee E103: Payment transaction failing",
+      "timestamp": "2026-11-22T00:48:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD45",
+      "id": "AUD45",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "Incident classified as APPLICATION",
+      "timestamp": "2026-11-22T00:48:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD46",
+      "id": "AUD46",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "Priority calculated as P1 (3 (impact) x 3 (urgency) x 4 (criticality) = 36, x1.50 for 60 affected users = 54.0); SLA 'Gold' response due 06:23:40, resolution due 06:48:40",
+      "timestamp": "2026-11-22T00:48:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD47",
+      "id": "AUD47",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "INC1006 may be related to INC1005 (similarity 56%)",
+      "timestamp": "2026-11-22T00:48:40.000Z",
+      "action": "DUPLICATE_SUSPECTED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD48",
+      "id": "AUD48",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 0/5, 7 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-22T00:48:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD49",
+      "id": "AUD49",
+      "actor": "Employee E104",
+      "incidentId": "INC1007",
+      "description": "Incident INC1007 created by Employee E104: Unable to make payment",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD50",
+      "id": "AUD50",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "Incident classified as APPLICATION",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD51",
+      "id": "AUD51",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "Priority calculated as P1 (3 (impact) x 4 (urgency) x 4 (criticality) = 48, x1.25 for 40 affected users = 60.0); SLA 'Gold' response due 06:26:40, resolution due 06:51:40",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD52",
+      "id": "AUD52",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "INC1007 may be related to INC1005 (similarity 56%)",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "DUPLICATE_SUSPECTED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD53",
+      "id": "AUD53",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 1/5, 9 yrs exp, 1 past fixes on service)",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD54",
+      "id": "AUD54",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "3 open incidents on service 'Payment Gateway' within the last hour: probable outage",
+      "timestamp": "2026-11-22T00:51:40.000Z",
+      "action": "OUTAGE_SUSPECTED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD55",
+      "id": "AUD55",
+      "actor": "Employee E101",
+      "incidentId": "INC1008",
+      "description": "Incident INC1008 created by Employee E101: Cannot login to SSO portal",
+      "timestamp": "2026-11-22T01:06:40.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD56",
+      "id": "AUD56",
+      "actor": "SYSTEM",
+      "incidentId": "INC1008",
+      "description": "Incident classified as AUTHENTICATION",
+      "timestamp": "2026-11-22T01:06:40.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD57",
+      "id": "AUD57",
+      "actor": "SYSTEM",
+      "incidentId": "INC1008",
+      "description": "Priority calculated as P1 (3 (impact) x 3 (urgency) x 4 (criticality) = 36, x1.25 for 25 affected users = 45.0); SLA 'Gold' response due 06:41:40, resolution due 07:06:40",
+      "timestamp": "2026-11-22T01:06:40.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD58",
+      "id": "AUD58",
+      "actor": "SYSTEM",
+      "incidentId": "INC1008",
+      "description": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 1/5, 7 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-22T01:06:41.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD59",
+      "id": "AUD59",
+      "actor": "SYSTEM",
+      "incidentId": "INC1008",
+      "description": "SLA warning: response deadline 06:41:40 is approaching",
+      "timestamp": "2026-11-22T01:10:41.000Z",
+      "action": "SLA_WARNING",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD60",
+      "id": "AUD60",
+      "actor": "Technician T204",
+      "incidentId": "INC1008",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-22T01:10:41.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD61",
+      "id": "AUD61",
+      "actor": "Technician T204",
+      "incidentId": "INC1008",
+      "description": "Investigation started",
+      "timestamp": "2026-11-22T01:14:41.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD62",
+      "id": "AUD62",
+      "actor": "Technician T204",
+      "incidentId": "INC1008",
+      "description": "Investigation note added: Identity provider certificate appears expired; checking renewal job.",
+      "timestamp": "2026-11-22T01:18:41.000Z",
+      "action": "NOTE_ADDED",
+      "previousState": "IN_PROGRESS",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD63",
+      "id": "AUD63",
+      "actor": "Employee E102",
+      "incidentId": "INC1009",
+      "description": "Incident INC1009 created by Employee E102: Shared drive running out of space",
+      "timestamp": "2026-11-22T01:16:41.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD64",
+      "id": "AUD64",
+      "actor": "SYSTEM",
+      "incidentId": "INC1009",
+      "description": "Incident classified as STORAGE",
+      "timestamp": "2026-11-22T01:16:41.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD65",
+      "id": "AUD65",
+      "actor": "SYSTEM",
+      "incidentId": "INC1009",
+      "description": "Priority calculated as P3 (2 (impact) x 2 (urgency) x 2 (criticality) = 8, x1.25 for 15 affected users = 10.0); SLA 'Standard' response due 08:46:41, resolution due 22:46:41",
+      "timestamp": "2026-11-22T01:16:41.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD66",
+      "id": "AUD66",
+      "actor": "SYSTEM",
+      "incidentId": "INC1009",
+      "description": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-22T01:16:41.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD67",
+      "id": "AUD67",
+      "actor": "Employee E104",
+      "incidentId": "INC1010",
+      "description": "Incident INC1010 created by Employee E104: Typo on leave application page",
+      "timestamp": "2026-11-22T01:24:41.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD68",
+      "id": "AUD68",
+      "actor": "SYSTEM",
+      "incidentId": "INC1010",
+      "description": "Incident classified as APPLICATION",
+      "timestamp": "2026-11-22T01:24:41.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD69",
+      "id": "AUD69",
+      "actor": "SYSTEM",
+      "incidentId": "INC1010",
+      "description": "Priority calculated as P4 (1 (impact) x 1 (urgency) x 1 (criticality) = 1, x1.00 for 1 affected users = 1.0); SLA 'Standard' response due 14:54:41, resolution due 06:54:41",
+      "timestamp": "2026-11-22T01:24:41.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD70",
+      "id": "AUD70",
+      "actor": "SYSTEM",
+      "incidentId": "INC1010",
+      "description": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 2/5, 9 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-22T01:24:41.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD71",
+      "id": "AUD71",
+      "actor": "Employee E102",
+      "incidentId": "INC1011",
+      "description": "Incident INC1011 created by Employee E102: Suspicious phishing email received",
+      "timestamp": "2026-11-22T01:26:41.000Z",
+      "action": "CREATED",
+      "previousState": null,
+      "newState": "NEW"
+    },
+    {
+      "_id": "AUD72",
+      "id": "AUD72",
+      "actor": "SYSTEM",
+      "incidentId": "INC1011",
+      "description": "Incident classified as SECURITY",
+      "timestamp": "2026-11-22T01:26:41.000Z",
+      "action": "CLASSIFIED",
+      "previousState": "NEW",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD73",
+      "id": "AUD73",
+      "actor": "SYSTEM",
+      "incidentId": "INC1011",
+      "description": "Priority calculated as P2 (3 (impact) x 3 (urgency) x 2 (criticality) = 18, x1.00 for 5 affected users = 18.0); SLA 'Standard' response due 07:26:41, resolution due 10:56:41",
+      "timestamp": "2026-11-22T01:26:41.000Z",
+      "action": "PRIORITY_CALCULATED",
+      "previousState": "CLASSIFIED",
+      "newState": "CLASSIFIED"
+    },
+    {
+      "_id": "AUD74",
+      "id": "AUD74",
+      "actor": "SYSTEM",
+      "incidentId": "INC1011",
+      "description": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "timestamp": "2026-11-22T01:26:41.000Z",
+      "action": "ASSIGNED",
+      "previousState": "CLASSIFIED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD75",
+      "id": "AUD75",
+      "actor": "Technician T202",
+      "incidentId": "INC1011",
+      "description": "Technician acknowledged incident",
+      "timestamp": "2026-11-22T01:28:41.000Z",
+      "action": "ACKNOWLEDGED",
+      "previousState": "ASSIGNED",
+      "newState": "ACKNOWLEDGED"
+    },
+    {
+      "_id": "AUD76",
+      "id": "AUD76",
+      "actor": "Technician T202",
+      "incidentId": "INC1011",
+      "description": "Investigation started",
+      "timestamp": "2026-11-22T01:29:41.000Z",
+      "action": "INVESTIGATION_STARTED",
+      "previousState": "ACKNOWLEDGED",
+      "newState": "IN_PROGRESS"
+    },
+    {
+      "_id": "AUD77",
+      "id": "AUD77",
+      "actor": "Technician T202",
+      "incidentId": "INC1011",
+      "description": "Technician requested more information: Please forward the original email as an attachment and tell us whether you clicked the link.",
+      "timestamp": "2026-11-22T01:31:41.000Z",
+      "action": "INFO_REQUESTED",
+      "previousState": "IN_PROGRESS",
+      "newState": "PENDING_INFO"
+    },
+    {
+      "_id": "AUD78",
+      "id": "AUD78",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "SLA VIOLATION: response deadline 06:21:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD79",
+      "id": "AUD79",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "SLA VIOLATION: resolution deadline 06:46:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD80",
+      "id": "AUD80",
+      "actor": "SYSTEM",
+      "incidentId": "INC1005",
+      "description": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "ESCALATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD81",
+      "id": "AUD81",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "SLA VIOLATION: response deadline 06:23:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD82",
+      "id": "AUD82",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "SLA VIOLATION: resolution deadline 06:48:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD83",
+      "id": "AUD83",
+      "actor": "SYSTEM",
+      "incidentId": "INC1006",
+      "description": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "ESCALATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD84",
+      "id": "AUD84",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "SLA VIOLATION: response deadline 06:26:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD85",
+      "id": "AUD85",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "SLA VIOLATION: resolution deadline 06:51:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD86",
+      "id": "AUD86",
+      "actor": "SYSTEM",
+      "incidentId": "INC1007",
+      "description": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "ESCALATED",
+      "previousState": "ASSIGNED",
+      "newState": "ASSIGNED"
+    },
+    {
+      "_id": "AUD87",
+      "id": "AUD87",
+      "actor": "SYSTEM",
+      "incidentId": "INC1008",
+      "description": "SLA VIOLATION: resolution deadline 07:06:40 missed",
+      "timestamp": "2026-11-22T01:36:41.000Z",
+      "action": "SLA_VIOLATED",
+      "previousState": "IN_PROGRESS",
+      "newState": "IN_PROGRESS"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "NTF1",
+      "id": "NTF1",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1001 created",
+      "message": "Incident INC1001 created by Employee E101: Payment gateway returning 500 errors",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF3",
+      "id": "NTF3",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1001 created",
+      "message": "Incident INC1001 created by Employee E101: Payment gateway returning 500 errors",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF5",
+      "id": "NTF5",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF8",
+      "id": "NTF8",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF11",
+      "id": "NTF11",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF13",
+      "id": "NTF13",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF15",
+      "id": "NTF15",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF17",
+      "id": "NTF17",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF18",
+      "id": "NTF18",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:04:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF19",
+      "id": "NTF19",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] resolved - please verify",
+      "message": "Resolution provided: Restarted gateway service and raised the connection pool limit from 50 to 200; added upstream timeout of 5s.",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF21",
+      "id": "NTF21",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] resolution verified",
+      "message": "Reporter verified the resolution",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:21:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF23",
+      "id": "NTF23",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1001 [P1] closed",
+      "message": "Incident CLOSED: Verified by reporter; root cause documented.",
+      "incidentId": "INC1001",
+      "createdAt": "2026-11-21T19:26:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF25",
+      "id": "NTF25",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1002 created",
+      "message": "Incident INC1002 created by Employee E102: VPN very slow for remote staff",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF27",
+      "id": "NTF27",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1002 created",
+      "message": "Incident INC1002 created by Employee E102: VPN very slow for remote staff",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF29",
+      "id": "NTF29",
+      "recipientId": "T202",
+      "recipientName": "Rahul Verma",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF31",
+      "id": "NTF31",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF33",
+      "id": "NTF33",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:44:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF34",
+      "id": "NTF34",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T20:46:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF35",
+      "id": "NTF35",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] resolved - please verify",
+      "message": "Resolution provided: Replaced faulty VPN concentrator uplink and rebalanced tunnels across both gateways.",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T21:26:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF37",
+      "id": "NTF37",
+      "recipientId": "T202",
+      "recipientName": "Rahul Verma",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] resolution verified",
+      "message": "Reporter verified the resolution",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T21:31:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF39",
+      "id": "NTF39",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] closed",
+      "message": "Incident CLOSED: Closed by IT manager.",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T21:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF41",
+      "id": "NTF41",
+      "recipientId": "T202",
+      "recipientName": "Rahul Verma",
+      "channel": "IN_APP",
+      "subject": "INC1002 [P2] closed",
+      "message": "Incident CLOSED: Closed by IT manager.",
+      "incidentId": "INC1002",
+      "createdAt": "2026-11-21T21:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF43",
+      "id": "NTF43",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1003 created",
+      "message": "Incident INC1003 created by Employee E104: Laptop keyboard keys not working",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF45",
+      "id": "NTF45",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1003 created",
+      "message": "Incident INC1003 created by Employee E104: Laptop keyboard keys not working",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF47",
+      "id": "NTF47",
+      "recipientId": "T203",
+      "recipientName": "Meera Iyer",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF49",
+      "id": "NTF49",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF51",
+      "id": "NTF51",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:26:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF52",
+      "id": "NTF52",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T22:31:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF53",
+      "id": "NTF53",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] resolved - please verify",
+      "message": "Resolution provided: Replaced laptop keyboard assembly and tested all keys.",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T23:06:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF55",
+      "id": "NTF55",
+      "recipientId": "T203",
+      "recipientName": "Meera Iyer",
+      "channel": "IN_APP",
+      "subject": "INC1003 [P4] resolution verified",
+      "message": "Reporter verified the resolution",
+      "incidentId": "INC1003",
+      "createdAt": "2026-11-21T23:16:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF57",
+      "id": "NTF57",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1004 created",
+      "message": "Incident INC1004 created by Employee E103: Reporting database queries timing out",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF59",
+      "id": "NTF59",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1004 created",
+      "message": "Incident INC1004 created by Employee E103: Reporting database queries timing out",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF61",
+      "id": "NTF61",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1004 [P2] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF63",
+      "id": "NTF63",
+      "recipientId": "E103",
+      "recipientName": "Kiran Reddy",
+      "channel": "IN_APP",
+      "subject": "INC1004 [P2] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF65",
+      "id": "NTF65",
+      "recipientId": "E103",
+      "recipientName": "Kiran Reddy",
+      "channel": "IN_APP",
+      "subject": "INC1004 [P2] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:44:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF66",
+      "id": "NTF66",
+      "recipientId": "E103",
+      "recipientName": "Kiran Reddy",
+      "channel": "IN_APP",
+      "subject": "INC1004 [P2] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T22:46:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF67",
+      "id": "NTF67",
+      "recipientId": "E103",
+      "recipientName": "Kiran Reddy",
+      "channel": "IN_APP",
+      "subject": "INC1004 [P2] resolved - please verify",
+      "message": "Resolution provided: Added missing composite index on transactions table and refreshed stale statistics.",
+      "incidentId": "INC1004",
+      "createdAt": "2026-11-21T23:36:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF69",
+      "id": "NTF69",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1005 created",
+      "message": "Incident INC1005 created by Employee E102: Payment application unavailable",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF71",
+      "id": "NTF71",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1005 created",
+      "message": "Incident INC1005 created by Employee E102: Payment application unavailable",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF73",
+      "id": "NTF73",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] possible duplicate",
+      "message": "INC1005 may be related to INC1001 (similarity 51%)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF75",
+      "id": "NTF75",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] possible duplicate",
+      "message": "INC1005 may be related to INC1001 (similarity 51%)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF77",
+      "id": "NTF77",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 1 past fixes on service)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF80",
+      "id": "NTF80",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 1 past fixes on service)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF83",
+      "id": "NTF83",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1006 created",
+      "message": "Incident INC1006 created by Employee E103: Payment transaction failing",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF85",
+      "id": "NTF85",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1006 created",
+      "message": "Incident INC1006 created by Employee E103: Payment transaction failing",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF87",
+      "id": "NTF87",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] possible duplicate",
+      "message": "INC1006 may be related to INC1005 (similarity 56%)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF89",
+      "id": "NTF89",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] possible duplicate",
+      "message": "INC1006 may be related to INC1005 (similarity 56%)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF91",
+      "id": "NTF91",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 0/5, 7 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": true
+    },
+    {
+      "_id": "NTF94",
+      "id": "NTF94",
+      "recipientId": "E103",
+      "recipientName": "Kiran Reddy",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 0/5, 7 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF97",
+      "id": "NTF97",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 created",
+      "message": "Incident INC1007 created by Employee E104: Unable to make payment",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF99",
+      "id": "NTF99",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 created",
+      "message": "Incident INC1007 created by Employee E104: Unable to make payment",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF101",
+      "id": "NTF101",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] possible duplicate",
+      "message": "INC1007 may be related to INC1005 (similarity 56%)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF103",
+      "id": "NTF103",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] possible duplicate",
+      "message": "INC1007 may be related to INC1005 (similarity 56%)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF105",
+      "id": "NTF105",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 1/5, 9 yrs exp, 1 past fixes on service)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF108",
+      "id": "NTF108",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 1/5, 9 yrs exp, 1 past fixes on service)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF111",
+      "id": "NTF111",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] possible service outage",
+      "message": "3 open incidents on service 'Payment Gateway' within the last hour: probable outage",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF114",
+      "id": "NTF114",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] possible service outage",
+      "message": "3 open incidents on service 'Payment Gateway' within the last hour: probable outage",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF117",
+      "id": "NTF117",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1008 created",
+      "message": "Incident INC1008 created by Employee E101: Cannot login to SSO portal",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:06:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF119",
+      "id": "NTF119",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1008 created",
+      "message": "Incident INC1008 created by Employee E101: Cannot login to SSO portal",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:06:40.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF121",
+      "id": "NTF121",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 1/5, 7 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:06:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF124",
+      "id": "NTF124",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 1/5, 7 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:06:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF127",
+      "id": "NTF127",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF129",
+      "id": "NTF129",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF131",
+      "id": "NTF131",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF133",
+      "id": "NTF133",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF134",
+      "id": "NTF134",
+      "recipientId": "E101",
+      "recipientName": "Ravi Kumar",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:14:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF135",
+      "id": "NTF135",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1009 created",
+      "message": "Incident INC1009 created by Employee E102: Shared drive running out of space",
+      "incidentId": "INC1009",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF137",
+      "id": "NTF137",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1009 created",
+      "message": "Incident INC1009 created by Employee E102: Shared drive running out of space",
+      "incidentId": "INC1009",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF139",
+      "id": "NTF139",
+      "recipientId": "T203",
+      "recipientName": "Meera Iyer",
+      "channel": "IN_APP",
+      "subject": "INC1009 [P3] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1009",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF141",
+      "id": "NTF141",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1009 [P3] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1009",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF143",
+      "id": "NTF143",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1010 created",
+      "message": "Incident INC1010 created by Employee E104: Typo on leave application page",
+      "incidentId": "INC1010",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF145",
+      "id": "NTF145",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1010 created",
+      "message": "Incident INC1010 created by Employee E104: Typo on leave application page",
+      "incidentId": "INC1010",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF147",
+      "id": "NTF147",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1010 [P4] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 2/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1010",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF149",
+      "id": "NTF149",
+      "recipientId": "E104",
+      "recipientName": "Divya Menon",
+      "channel": "IN_APP",
+      "subject": "INC1010 [P4] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 2/5, 9 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1010",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF151",
+      "id": "NTF151",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1011 created",
+      "message": "Incident INC1011 created by Employee E102: Suspicious phishing email received",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF153",
+      "id": "NTF153",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1011 created",
+      "message": "Incident INC1011 created by Employee E102: Suspicious phishing email received",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF155",
+      "id": "NTF155",
+      "recipientId": "T202",
+      "recipientName": "Rahul Verma",
+      "channel": "IN_APP",
+      "subject": "INC1011 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF157",
+      "id": "NTF157",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1011 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF159",
+      "id": "NTF159",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1011 [P2] acknowledged",
+      "message": "Technician acknowledged incident",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:28:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF160",
+      "id": "NTF160",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1011 [P2] investigation started",
+      "message": "Investigation started",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:29:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF161",
+      "id": "NTF161",
+      "recipientId": "E102",
+      "recipientName": "Sara Thomas",
+      "channel": "IN_APP",
+      "subject": "INC1011 [P2] more information requested",
+      "message": "Technician requested more information: Please forward the original email as an attachment and tell us whether you clicked the link.",
+      "incidentId": "INC1011",
+      "createdAt": "2026-11-22T01:31:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF163",
+      "id": "NTF163",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF166",
+      "id": "NTF166",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF169",
+      "id": "NTF169",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF172",
+      "id": "NTF172",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF175",
+      "id": "NTF175",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF178",
+      "id": "NTF178",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF181",
+      "id": "NTF181",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF184",
+      "id": "NTF184",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1005 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1005",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF187",
+      "id": "NTF187",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF190",
+      "id": "NTF190",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF193",
+      "id": "NTF193",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF196",
+      "id": "NTF196",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF199",
+      "id": "NTF199",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF202",
+      "id": "NTF202",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF205",
+      "id": "NTF205",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF208",
+      "id": "NTF208",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1006 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1006",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF211",
+      "id": "NTF211",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF214",
+      "id": "NTF214",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF217",
+      "id": "NTF217",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF220",
+      "id": "NTF220",
+      "recipientId": "T201",
+      "recipientName": "Priya Nair",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF223",
+      "id": "NTF223",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF226",
+      "id": "NTF226",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF229",
+      "id": "NTF229",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF232",
+      "id": "NTF232",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1007 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)",
+      "incidentId": "INC1007",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF235",
+      "id": "NTF235",
+      "recipientId": "T204",
+      "recipientName": "Arjun Das",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF238",
+      "id": "NTF238",
+      "recipientId": "A301",
+      "recipientName": "Anita Rao",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    },
+    {
+      "_id": "NTF241",
+      "id": "NTF241",
+      "recipientId": "A302",
+      "recipientName": "Sameer Khan",
+      "channel": "IN_APP",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed",
+      "incidentId": "INC1008",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "read": false
+    }
+  ],
+  "settings": [
+    {
+      "assignmentStrategyKey": "SKILL",
+      "priorityStrategyKey": "WEIGHTED",
+      "defaultPolicyId": "SLA2",
+      "slaWarningFraction": 0.75,
+      "escalationStepMinutes": 10,
+      "sequences": {
+        "AUD": 87,
+        "NTF": 243,
+        "A": 2,
+        "SVC": 8,
+        "T": 5,
+        "E": 4,
+        "SLA": 2,
+        "INC": 11
+      },
+      "_id": "global"
+    }
+  ],
+  "emailOutbox": [
+    {
+      "_id": "legacy-email-0001",
+      "id": "legacy-email-0001",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1001 created",
+      "message": "Incident INC1001 created by Employee E101: Payment gateway returning 500 errors"
+    },
+    {
+      "_id": "legacy-email-0002",
+      "id": "legacy-email-0002",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1001 created",
+      "message": "Incident INC1001 created by Employee E101: Payment gateway returning 500 errors"
+    },
+    {
+      "_id": "legacy-email-0003",
+      "id": "legacy-email-0003",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1001 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0004",
+      "id": "legacy-email-0004",
+      "createdAt": "2026-11-21T18:56:40.000Z",
+      "to": "ravi@nexora.com",
+      "subject": "INC1001 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0005",
+      "id": "legacy-email-0005",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0006",
+      "id": "legacy-email-0006",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0007",
+      "id": "legacy-email-0007",
+      "createdAt": "2026-11-21T19:00:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1001 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 00:31:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0008",
+      "id": "legacy-email-0008",
+      "createdAt": "2026-11-21T19:16:40.000Z",
+      "to": "ravi@nexora.com",
+      "subject": "INC1001 [P1] resolved - please verify",
+      "message": "Resolution provided: Restarted gateway service and raised the connection pool limit from 50 to 200; added upstream timeout of 5s."
+    },
+    {
+      "_id": "legacy-email-0009",
+      "id": "legacy-email-0009",
+      "createdAt": "2026-11-21T19:21:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1001 [P1] resolution verified",
+      "message": "Reporter verified the resolution"
+    },
+    {
+      "_id": "legacy-email-0010",
+      "id": "legacy-email-0010",
+      "createdAt": "2026-11-21T19:26:40.000Z",
+      "to": "ravi@nexora.com",
+      "subject": "INC1001 [P1] closed",
+      "message": "Incident CLOSED: Verified by reporter; root cause documented."
+    },
+    {
+      "_id": "legacy-email-0011",
+      "id": "legacy-email-0011",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1002 created",
+      "message": "Incident INC1002 created by Employee E102: VPN very slow for remote staff"
+    },
+    {
+      "_id": "legacy-email-0012",
+      "id": "legacy-email-0012",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1002 created",
+      "message": "Incident INC1002 created by Employee E102: VPN very slow for remote staff"
+    },
+    {
+      "_id": "legacy-email-0013",
+      "id": "legacy-email-0013",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "to": "rahul@nexora.com",
+      "subject": "INC1002 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0014",
+      "id": "legacy-email-0014",
+      "createdAt": "2026-11-21T20:36:40.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1002 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0015",
+      "id": "legacy-email-0015",
+      "createdAt": "2026-11-21T21:26:40.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1002 [P2] resolved - please verify",
+      "message": "Resolution provided: Replaced faulty VPN concentrator uplink and rebalanced tunnels across both gateways."
+    },
+    {
+      "_id": "legacy-email-0016",
+      "id": "legacy-email-0016",
+      "createdAt": "2026-11-21T21:31:40.000Z",
+      "to": "rahul@nexora.com",
+      "subject": "INC1002 [P2] resolution verified",
+      "message": "Reporter verified the resolution"
+    },
+    {
+      "_id": "legacy-email-0017",
+      "id": "legacy-email-0017",
+      "createdAt": "2026-11-21T21:36:40.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1002 [P2] closed",
+      "message": "Incident CLOSED: Closed by IT manager."
+    },
+    {
+      "_id": "legacy-email-0018",
+      "id": "legacy-email-0018",
+      "createdAt": "2026-11-21T21:36:40.000Z",
+      "to": "rahul@nexora.com",
+      "subject": "INC1002 [P2] closed",
+      "message": "Incident CLOSED: Closed by IT manager."
+    },
+    {
+      "_id": "legacy-email-0019",
+      "id": "legacy-email-0019",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1003 created",
+      "message": "Incident INC1003 created by Employee E104: Laptop keyboard keys not working"
+    },
+    {
+      "_id": "legacy-email-0020",
+      "id": "legacy-email-0020",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1003 created",
+      "message": "Incident INC1003 created by Employee E104: Laptop keyboard keys not working"
+    },
+    {
+      "_id": "legacy-email-0021",
+      "id": "legacy-email-0021",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "to": "meera@nexora.com",
+      "subject": "INC1003 [P4] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0022",
+      "id": "legacy-email-0022",
+      "createdAt": "2026-11-21T22:16:40.000Z",
+      "to": "divya@nexora.com",
+      "subject": "INC1003 [P4] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0023",
+      "id": "legacy-email-0023",
+      "createdAt": "2026-11-21T23:06:40.000Z",
+      "to": "divya@nexora.com",
+      "subject": "INC1003 [P4] resolved - please verify",
+      "message": "Resolution provided: Replaced laptop keyboard assembly and tested all keys."
+    },
+    {
+      "_id": "legacy-email-0024",
+      "id": "legacy-email-0024",
+      "createdAt": "2026-11-21T23:16:40.000Z",
+      "to": "meera@nexora.com",
+      "subject": "INC1003 [P4] resolution verified",
+      "message": "Reporter verified the resolution"
+    },
+    {
+      "_id": "legacy-email-0025",
+      "id": "legacy-email-0025",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1004 created",
+      "message": "Incident INC1004 created by Employee E103: Reporting database queries timing out"
+    },
+    {
+      "_id": "legacy-email-0026",
+      "id": "legacy-email-0026",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1004 created",
+      "message": "Incident INC1004 created by Employee E103: Reporting database queries timing out"
+    },
+    {
+      "_id": "legacy-email-0027",
+      "id": "legacy-email-0027",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1004 [P2] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0028",
+      "id": "legacy-email-0028",
+      "createdAt": "2026-11-21T22:36:40.000Z",
+      "to": "kiran@nexora.com",
+      "subject": "INC1004 [P2] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0029",
+      "id": "legacy-email-0029",
+      "createdAt": "2026-11-21T23:36:40.000Z",
+      "to": "kiran@nexora.com",
+      "subject": "INC1004 [P2] resolved - please verify",
+      "message": "Resolution provided: Added missing composite index on transactions table and refreshed stale statistics."
+    },
+    {
+      "_id": "legacy-email-0030",
+      "id": "legacy-email-0030",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1005 created",
+      "message": "Incident INC1005 created by Employee E102: Payment application unavailable"
+    },
+    {
+      "_id": "legacy-email-0031",
+      "id": "legacy-email-0031",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1005 created",
+      "message": "Incident INC1005 created by Employee E102: Payment application unavailable"
+    },
+    {
+      "_id": "legacy-email-0032",
+      "id": "legacy-email-0032",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1005 [P1] possible duplicate",
+      "message": "INC1005 may be related to INC1001 (similarity 51%)"
+    },
+    {
+      "_id": "legacy-email-0033",
+      "id": "legacy-email-0033",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1005 [P1] possible duplicate",
+      "message": "INC1005 may be related to INC1001 (similarity 51%)"
+    },
+    {
+      "_id": "legacy-email-0034",
+      "id": "legacy-email-0034",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1005 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 1 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0035",
+      "id": "legacy-email-0035",
+      "createdAt": "2026-11-22T00:46:40.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1005 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 0/5, 9 yrs exp, 1 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0036",
+      "id": "legacy-email-0036",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1006 created",
+      "message": "Incident INC1006 created by Employee E103: Payment transaction failing"
+    },
+    {
+      "_id": "legacy-email-0037",
+      "id": "legacy-email-0037",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1006 created",
+      "message": "Incident INC1006 created by Employee E103: Payment transaction failing"
+    },
+    {
+      "_id": "legacy-email-0038",
+      "id": "legacy-email-0038",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1006 [P1] possible duplicate",
+      "message": "INC1006 may be related to INC1005 (similarity 56%)"
+    },
+    {
+      "_id": "legacy-email-0039",
+      "id": "legacy-email-0039",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1006 [P1] possible duplicate",
+      "message": "INC1006 may be related to INC1005 (similarity 56%)"
+    },
+    {
+      "_id": "legacy-email-0040",
+      "id": "legacy-email-0040",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1006 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 0/5, 7 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0041",
+      "id": "legacy-email-0041",
+      "createdAt": "2026-11-22T00:48:40.000Z",
+      "to": "kiran@nexora.com",
+      "subject": "INC1006 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 0/5, 7 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0042",
+      "id": "legacy-email-0042",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 created",
+      "message": "Incident INC1007 created by Employee E104: Unable to make payment"
+    },
+    {
+      "_id": "legacy-email-0043",
+      "id": "legacy-email-0043",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 created",
+      "message": "Incident INC1007 created by Employee E104: Unable to make payment"
+    },
+    {
+      "_id": "legacy-email-0044",
+      "id": "legacy-email-0044",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 [P1] possible duplicate",
+      "message": "INC1007 may be related to INC1005 (similarity 56%)"
+    },
+    {
+      "_id": "legacy-email-0045",
+      "id": "legacy-email-0045",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 [P1] possible duplicate",
+      "message": "INC1007 may be related to INC1005 (similarity 56%)"
+    },
+    {
+      "_id": "legacy-email-0046",
+      "id": "legacy-email-0046",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1007 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 1/5, 9 yrs exp, 1 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0047",
+      "id": "legacy-email-0047",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "divya@nexora.com",
+      "subject": "INC1007 [P1] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 1/5, 9 yrs exp, 1 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0048",
+      "id": "legacy-email-0048",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 [P1] possible service outage",
+      "message": "3 open incidents on service 'Payment Gateway' within the last hour: probable outage"
+    },
+    {
+      "_id": "legacy-email-0049",
+      "id": "legacy-email-0049",
+      "createdAt": "2026-11-22T00:51:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 [P1] possible service outage",
+      "message": "3 open incidents on service 'Payment Gateway' within the last hour: probable outage"
+    },
+    {
+      "_id": "legacy-email-0050",
+      "id": "legacy-email-0050",
+      "createdAt": "2026-11-22T01:06:40.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1008 created",
+      "message": "Incident INC1008 created by Employee E101: Cannot login to SSO portal"
+    },
+    {
+      "_id": "legacy-email-0051",
+      "id": "legacy-email-0051",
+      "createdAt": "2026-11-22T01:06:40.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1008 created",
+      "message": "Incident INC1008 created by Employee E101: Cannot login to SSO portal"
+    },
+    {
+      "_id": "legacy-email-0052",
+      "id": "legacy-email-0052",
+      "createdAt": "2026-11-22T01:06:41.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1008 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 1/5, 7 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0053",
+      "id": "legacy-email-0053",
+      "createdAt": "2026-11-22T01:06:41.000Z",
+      "to": "ravi@nexora.com",
+      "subject": "INC1008 [P1] assigned",
+      "message": "Assigned to Technician T204 Arjun Das - auto (SKILL: skill match, load 1/5, 7 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0054",
+      "id": "legacy-email-0054",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0055",
+      "id": "legacy-email-0055",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0056",
+      "id": "legacy-email-0056",
+      "createdAt": "2026-11-22T01:10:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1008 [P1] SLA deadline approaching",
+      "message": "SLA warning: response deadline 06:41:40 is approaching"
+    },
+    {
+      "_id": "legacy-email-0057",
+      "id": "legacy-email-0057",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1009 created",
+      "message": "Incident INC1009 created by Employee E102: Shared drive running out of space"
+    },
+    {
+      "_id": "legacy-email-0058",
+      "id": "legacy-email-0058",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1009 created",
+      "message": "Incident INC1009 created by Employee E102: Shared drive running out of space"
+    },
+    {
+      "_id": "legacy-email-0059",
+      "id": "legacy-email-0059",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "to": "meera@nexora.com",
+      "subject": "INC1009 [P3] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0060",
+      "id": "legacy-email-0060",
+      "createdAt": "2026-11-22T01:16:41.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1009 [P3] assigned",
+      "message": "Assigned to Technician T203 Meera Iyer - auto (SKILL: skill match, load 0/4, 4 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0061",
+      "id": "legacy-email-0061",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1010 created",
+      "message": "Incident INC1010 created by Employee E104: Typo on leave application page"
+    },
+    {
+      "_id": "legacy-email-0062",
+      "id": "legacy-email-0062",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1010 created",
+      "message": "Incident INC1010 created by Employee E104: Typo on leave application page"
+    },
+    {
+      "_id": "legacy-email-0063",
+      "id": "legacy-email-0063",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1010 [P4] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 2/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0064",
+      "id": "legacy-email-0064",
+      "createdAt": "2026-11-22T01:24:41.000Z",
+      "to": "divya@nexora.com",
+      "subject": "INC1010 [P4] assigned",
+      "message": "Assigned to Technician T201 Priya Nair - auto (SKILL: skill match, load 2/5, 9 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0065",
+      "id": "legacy-email-0065",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1011 created",
+      "message": "Incident INC1011 created by Employee E102: Suspicious phishing email received"
+    },
+    {
+      "_id": "legacy-email-0066",
+      "id": "legacy-email-0066",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1011 created",
+      "message": "Incident INC1011 created by Employee E102: Suspicious phishing email received"
+    },
+    {
+      "_id": "legacy-email-0067",
+      "id": "legacy-email-0067",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "to": "rahul@nexora.com",
+      "subject": "INC1011 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0068",
+      "id": "legacy-email-0068",
+      "createdAt": "2026-11-22T01:26:41.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1011 [P2] assigned",
+      "message": "Assigned to Technician T202 Rahul Verma - auto (SKILL: skill match, load 0/5, 6 yrs exp, 0 past fixes on service)"
+    },
+    {
+      "_id": "legacy-email-0069",
+      "id": "legacy-email-0069",
+      "createdAt": "2026-11-22T01:31:41.000Z",
+      "to": "sara@nexora.com",
+      "subject": "INC1011 [P2] more information requested",
+      "message": "Technician requested more information: Please forward the original email as an attachment and tell us whether you clicked the link."
+    },
+    {
+      "_id": "legacy-email-0070",
+      "id": "legacy-email-0070",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed"
+    },
+    {
+      "_id": "legacy-email-0071",
+      "id": "legacy-email-0071",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed"
+    },
+    {
+      "_id": "legacy-email-0072",
+      "id": "legacy-email-0072",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:21:40 missed"
+    },
+    {
+      "_id": "legacy-email-0073",
+      "id": "legacy-email-0073",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed"
+    },
+    {
+      "_id": "legacy-email-0074",
+      "id": "legacy-email-0074",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed"
+    },
+    {
+      "_id": "legacy-email-0075",
+      "id": "legacy-email-0075",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1005 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:46:40 missed"
+    },
+    {
+      "_id": "legacy-email-0076",
+      "id": "legacy-email-0076",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1005 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0077",
+      "id": "legacy-email-0077",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1005 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0078",
+      "id": "legacy-email-0078",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed"
+    },
+    {
+      "_id": "legacy-email-0079",
+      "id": "legacy-email-0079",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed"
+    },
+    {
+      "_id": "legacy-email-0080",
+      "id": "legacy-email-0080",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:23:40 missed"
+    },
+    {
+      "_id": "legacy-email-0081",
+      "id": "legacy-email-0081",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed"
+    },
+    {
+      "_id": "legacy-email-0082",
+      "id": "legacy-email-0082",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed"
+    },
+    {
+      "_id": "legacy-email-0083",
+      "id": "legacy-email-0083",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1006 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:48:40 missed"
+    },
+    {
+      "_id": "legacy-email-0084",
+      "id": "legacy-email-0084",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1006 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0085",
+      "id": "legacy-email-0085",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1006 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0086",
+      "id": "legacy-email-0086",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed"
+    },
+    {
+      "_id": "legacy-email-0087",
+      "id": "legacy-email-0087",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed"
+    },
+    {
+      "_id": "legacy-email-0088",
+      "id": "legacy-email-0088",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: response deadline 06:26:40 missed"
+    },
+    {
+      "_id": "legacy-email-0089",
+      "id": "legacy-email-0089",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "priya@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed"
+    },
+    {
+      "_id": "legacy-email-0090",
+      "id": "legacy-email-0090",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed"
+    },
+    {
+      "_id": "legacy-email-0091",
+      "id": "legacy-email-0091",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 06:51:40 missed"
+    },
+    {
+      "_id": "legacy-email-0092",
+      "id": "legacy-email-0092",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1007 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0093",
+      "id": "legacy-email-0093",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1007 [P1] ESCALATED",
+      "message": "Unacknowledged P1 incident escalated to IT Manager (Anita Rao)"
+    },
+    {
+      "_id": "legacy-email-0094",
+      "id": "legacy-email-0094",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "arjun@nexora.com",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed"
+    },
+    {
+      "_id": "legacy-email-0095",
+      "id": "legacy-email-0095",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "manager@nexora.com",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed"
+    },
+    {
+      "_id": "legacy-email-0096",
+      "id": "legacy-email-0096",
+      "createdAt": "2026-11-22T01:36:41.000Z",
+      "to": "sysadmin@nexora.com",
+      "subject": "INC1008 [P1] SLA VIOLATED",
+      "message": "SLA VIOLATION: resolution deadline 07:06:40 missed"
+    }
+  ]
+}

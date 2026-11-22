@@ -1,0 +1,28 @@
+{
+  "name": "nexora-servicedesk",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server/start.js",
+    "demo:history": "node scripts/demo-history.js",
+    "test": "node --test test/*.test.js",
+    "format": "prettier --write client server shared scripts test docs README.md package.json docker-compose.yml .github/workflows/ci.yml",
+    "format:check": "prettier --check client server shared scripts test docs README.md package.json docker-compose.yml .github/workflows/ci.yml"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongodb-memory-server-core": "^11.4.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.0",
+    "prettier": "^3.10.1"
+  }
+}

@@ -1,0 +1,38 @@
+services:
+  mongo:
+    image: mongo:7
+    command: ['mongod', '--replSet', 'nexora', '--bind_ip_all']
+    volumes:
+      - nexora_mongo:/data/db
+    healthcheck:
+      test:
+        - CMD
+        - mongosh
+        - mongodb://127.0.0.1:27017/admin?directConnection=true
+        - --quiet
+        - --eval
+        - >-
+          const hello = db.hello();
+          if (!hello.setName) {
+            rs.initiate({_id:"nexora", members:[{_id:0, host:"mongo:27017"}]});
+            quit(1);
+          }
+          quit(hello.isWritablePrimary ? 0 : 1);
+      interval: 5s
+      timeout: 5s
+      retries: 15
+  app:
+    build: .
+    environment:
+      MONGODB_URI: 'mongodb://mongo:27017/nexora_servicedesk?replicaSet=nexora'
+      HOST: '0.0.0.0'
+      PORT: '18120'
+      DEMO_MODE: 'true'
+      ALLOWED_HOSTS: 'localhost:18120,127.0.0.1:18120'
+    ports:
+      - '127.0.0.1:18120:18120'
+    depends_on:
+      mongo:
+        condition: service_healthy
+volumes:
+  nexora_mongo:
